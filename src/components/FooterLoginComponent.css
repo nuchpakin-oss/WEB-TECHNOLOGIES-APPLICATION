@@ -1,0 +1,51 @@
+.footer {
+  width: 100%;
+  background-color: #383633;
+  color: #dec37b;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: start;
+
+  padding: 25px 70px 18px;
+  position: relative;
+}
+
+.footer-section {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.footer-section h3 {
+  margin: 0 0 18px;
+}
+
+.social-title {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-icons img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.footer-copy {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  color: #8f876f;
+  font-size: 13px;
+  white-space: nowrap;
+}
